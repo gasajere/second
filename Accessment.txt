@@ -1,0 +1,150 @@
+10 advantages of Agile software development and 5 known drawbacks include:
+1. Agile focuses on Users
+2. Allows the teams to deliver software with greater quality and predictability
+3. Focuses on business values
+4. Allows for transparency between customers and developers
+5. With Agile,costs and schedule are usually predictable
+6. Using Agile allows for early and predictable delivery
+7. Gives an opportunity to continuously improve and reprioritize the overall product back log
+8. Allows teams to deliver software with greater aptitude to respond to change
+9. Greater stakeholder engangement, stakeholders and developers work closely everyday
+10. Increased efficiency and reduced wastage of time and resources
+
+Draw backs:
+1. Limited documentation because documentation happens through the project and not at the start
+2. Poor resource planning which may be as a result of a client not being clear about their goals
+3. Their is always the danger of fragmented Output with Agile,this is because of incremental delivery
+4. Because agile works in increments their's difficulty measuring progress
+5. No finite end 
+
+10 variables of each of the data types
+
+// String variables
+fun main() {
+    val name1: String = "John"
+    println(name1)
+    val name2: String = "Terry"
+    println(name2)
+    val name3: String = "Luke"
+    println(name3)
+    val name4: String = "Simpson"
+    println(name4)
+    val name6: String = "Donald"
+    println(name6)
+    val name7: String = "Maxwell"
+    println(name7)
+    val name8: String = "Jack"
+    println(name8)
+    val name9: String = "Kells"
+    println(name9)
+    val name_: String = "Roger"
+    println(name_)
+    val name0: String = "Esther"
+    println(name0)
+
+    // Integer variables
+    val age:Int=23
+    println(age)
+    val age1:Int=45
+    println(age1)
+    val age3:Int=33
+    println(age3)
+    val age4:Int=10
+    println(age4)
+    val age5:Int=22
+    println(age5)
+    val age6:Int=66
+    println(age6)
+    val age7:Int=5
+    println(age7)
+    val age8:Int=19
+    println(age8)
+    val age9:Int=21
+    println(age9)
+
+ // Double Variables
+    val cgpa1: Double=3.55
+    println(cgpa1)
+    val cgpa2: Double=2.22
+    println(cgpa2)
+    val cgpa3: Double=3.24
+    println(cgpa3)
+    val cgpa4: Double=1.78
+    println(cgpa4)
+    val cgpa5: Double=5.00
+    println(cgpa5)
+    val cgpa6: Double=1.11
+    println(cgpa6)
+    val cgpa7: Double=0.56
+    println(cgpa7)
+    val cgpa8: Double=2.67
+    println(cgpa8)
+    val cgpa9: Double=4.56
+    println(cgpa9)
+    val cgpa0: Double=4.1
+    println(cgpa0)
+    val cgpa10: Double=1.8
+    println(cgpa10)
+
+ // Boolean Variables
+    var isOLDenough: Boolean= false
+    println(isOLDenough)
+    var matchesPICTURE: Boolean= true
+    println(matchesPICTURE)
+    var isTALLenough: Boolean= true
+    println(isTALLenough)
+    var isUPTOamount: Boolean= false
+    println(isUPTOamount)
+    var equalstTO: Boolean= true
+    println(equalstTO)
+    var isRELATEDto: Boolean= false
+    println(isRELATEDto)
+    var isRequired: Boolean= false
+    println(isRequired)
+    var isNOTrequired: Boolean= true
+    println(isNOTrequired)
+    var isCHANGEABLE: Boolean=true
+    println(isCHANGEABLE)
+    var isAllowed: Boolean= false
+    println(isAllowed)
+ // Float variables
+    var salary: Float= 32000.51f
+    println(salary)
+    var salary1: Float= 52000.58f
+    println(salary1)
+    var salary2: Float= 62000.200f
+    println(salary2)
+    var salary3:Float= 42000.500f
+    println(salary3)
+    var salary4: Float= 882000.500f
+    println(salary4)
+    var salary5:Float= 92000.508f
+    println(salary5)
+    var salary6: Float= 82000.300f
+    println(salary6)
+    var salary7: Float= 12000.500f
+    println(salary7)
+    var salary8: Float= 2000.530f
+    println(salary8)
+    var salary9: Float= 892000.500f
+    println(salary9)
+
+	}
+
+Functions with return value
+	fun main() {
+    var result:Int=addnumbers(67, 5)
+    println(result)
+}
+
+
+fun addnumbers (n1:Int, n2:Int): Int{
+    return n1+n2
+
+}
+
+fun deduction (fnum:Int, snum:Int): Int{
+    return fnum-snum
+}
+
+Functions without return value 
